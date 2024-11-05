@@ -1,0 +1,15 @@
+create table if not exists ember_models_table_account(
+models_table_owner Integer not null,
+models_table_name varchar(255) null,
+light_table varchar(255) null,
+paper_select varchar(255) null,
+resolver varchar(255) null,
+responsive Integer null,
+country_code varchar(255) null,
+power_select varchar(255) null,
+font_awesome varchar(255) null,
+q_unit Integer null,
+address_id varchar(255) null,
+auto_relabel varchar(255) null,
+container_scope varchar(255) null,
+constraint ember_models_table_account_pk primary key(models_table_owner));

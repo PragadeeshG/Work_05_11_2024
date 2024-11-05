@@ -1,0 +1,15 @@
+create table if not exists one_way_select_workflow(
+one_way_select_flow_code Integer not null,
+one_way_select_flow_type varchar(255) null,
+draggable varchar(255) null,
+cors varchar(255) null,
+html_bars Integer null,
+pre_complie Integer null,
+boot_strap Integer null,
+cli_app_version varchar(255) null,
+static_compiler varchar(255) null,
+runtime_attributes varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint one_way_select_workflow_pk primary key(one_way_select_flow_code));
